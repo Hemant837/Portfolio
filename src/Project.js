@@ -30,7 +30,7 @@ class Project extends Component {
               </li>
             </div>
             <div className="Card-link">
-              <a href={this.props.link}>
+              <a href={this.props.link} target="_blank">
                 <i class="fa-brands fa-github"></i>
               </a>
             </div>
