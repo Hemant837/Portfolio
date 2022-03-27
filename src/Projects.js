@@ -22,6 +22,7 @@ class Projects extends Component {
         a1: "Flutter",
         a2: "Dart",
         a3: "Firebase",
+        link: "https://github.com/Hemant837/Ecommerce-App",
       },
       {
         cil: "/amazonFrontPageClone.jpg",
@@ -42,6 +43,7 @@ class Projects extends Component {
         a1: "HTML",
         a2: "CSS",
         a3: "Bootstrap",
+        link: "https://github.com/Hemant837/Amazon-First-Page-Clone",
       },
       {
         cil: "/libraryManagementSystem.jpg",
@@ -59,13 +61,18 @@ class Projects extends Component {
         a1: "Java",
         a2: "Netbeans",
         a3: "MySQL",
+        link: "https://github.com/Hemant837/Ecommerce-App",
       },
     ],
   };
   render() {
     return (
       <section className="Project">
-        <div data-aos="fade-down" data-aos-duration="500" className="Project-heading">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="500"
+          className="Project-heading"
+        >
           <li>Some Things I've Built</li>
           <div className="Project-line"></div>
         </div>

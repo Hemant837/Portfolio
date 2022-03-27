@@ -4,7 +4,12 @@ import "./Project.css";
 class Project extends Component {
   render() {
     return (
-      <div data-aos="fade-up" data-aos-duration="800" className="Card" id="Projects">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="800"
+        className="Card"
+        id="Projects"
+      >
         <div className="Card-img">
           <img src={this.props.cil} />
         </div>
@@ -25,7 +30,7 @@ class Project extends Component {
               </li>
             </div>
             <div className="Card-link">
-              <a href="">
+              <a href={this.props.link}>
                 <i class="fa-brands fa-github"></i>
               </a>
             </div>
