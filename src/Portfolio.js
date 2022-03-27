@@ -7,6 +7,7 @@ import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Achievements from "./Achievements";
 import Contact from "./Contact";
+import Navigation from "./Navigation";
 
 class Portfolio extends Component {
   render() {
@@ -20,6 +21,7 @@ class Portfolio extends Component {
         <Projects />
         <Achievements />
         <Contact />
+        <Navigation />
       </div>
     );
   }
