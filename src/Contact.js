@@ -41,7 +41,6 @@ class Contact extends Component {
             <i class="fa-brands fa-linkedin-in hemant_Loves_pu$$y"></i>
           </a>
         </div>
-        s
       </section>
     );
   }

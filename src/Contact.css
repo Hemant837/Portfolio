@@ -1,7 +1,7 @@
 .Contact {
     text-align: center;
     margin-top: 50vh;
-    margin-left: 50vh;
+    margin-left: 55vh;
     margin-bottom: 10vh;
     width: 50%;
 }
@@ -39,6 +39,7 @@
 }
 
 .Navigation-link a{
+    margin: auto;
     color: #CCD6F6;
     font-size: 1.4rem;
     text-decoration:  none;
@@ -95,6 +96,14 @@
     width: 80%;
 }
 
+.Navigation-link {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
@@ -127,7 +136,7 @@
 .Contact {
     text-align: center;
     margin-top: 50vh;
-    margin-left: 45vh;
+    margin-left: 55vh;
     width: 52%;
     margin-bottom: 10vh;
 }
