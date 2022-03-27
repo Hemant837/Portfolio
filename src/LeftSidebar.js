@@ -39,7 +39,7 @@ class LeftSidebar extends Component {
   };
   render() {
     return (
-      <section className="LeftSidebar">
+      <section data-aos="fade-right" data-aos-duration="1500" className="LeftSidebar">
         <div className="LeftSidebar-content">
           {this.props.icons.map((i) => (
             <li className="LeftSidebar-icon">{i.icon}</li>

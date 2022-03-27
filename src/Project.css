@@ -75,7 +75,7 @@
 }
 
 .card-para {
-    height: 120px;
+    height: max-content;
     width: 100%;   
 }
 .Card-para p{
@@ -109,6 +109,7 @@
     color: #64FFDA;
 }
 
+
 @media (max-width: 480px) {
 
 .Project {
@@ -123,7 +124,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: start;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 500;
     color: #CCD6F6;
     width: 100%; 
@@ -138,7 +139,7 @@
 
 .Card-content {
     width: 100%;
-    height: max-content;
+    height: 350px;
     margin-left: 50px;
     text-align: left;
     background-color: #112240;
@@ -155,7 +156,7 @@
 }
 .Card-heading {
     margin-left: 18px;
-    font-size: 18px;
+    font-size: 17px;
     color: #CCD6F6;
 }
 

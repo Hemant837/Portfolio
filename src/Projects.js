@@ -30,14 +30,14 @@ class Projects extends Component {
         cp: (
           <p>
             Simple static website, designed using{" "}
-            <a className="Highlighted">HTML</a> for structuring the web page,
-            used <a className="Highlighted">CSS</a> for styling text, fonts,
-            headings, and positioning the elements. <br /> Used{" "}
-            <a className="Highlighted">Bootstrap</a> classes for small
-            customization in <a className="Highlighted">Navbars</a>,{" "}
-            <a className="Highlighted">carousel</a>,{" "}
-            <a className="Highlighted">Bootstrap cards</a> for showcasing the
-            product categories.
+            <a className="Highlighted">HTML</a> for structuring, used{" "}
+            <a className="Highlighted">CSS</a> for styling text, fonts,
+            headings, and more.
+            <br /> Used <a className="Highlighted">Bootstrap</a> classes for
+            small customization in <a className="Highlighted">Navbars</a>,{" "}
+            <a className="Highlighted">carousel</a>, and
+            <a className="Highlighted"> Bootstrap cards</a> to show the product
+            categories.
           </p>
         ),
         a1: "HTML",
