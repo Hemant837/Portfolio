@@ -1,0 +1,152 @@
+.Introduction {
+    width: 70%;
+    margin: 50px 250px;
+}
+
+.Introduction-h1 h1{
+    margin-left: 6px;
+    margin-bottom: 0;
+    color: #64FFDA;
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.Introduction-h2 h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #CCD6F6;
+    font-size: 70px;
+}
+
+.Introduction-h3 h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    color: #8892B0;
+    font-size: 75px;
+}
+
+.Introduction-para {
+    margin-top: 40px;
+    font-size: 18px;
+    width: 70%;
+    color: #8892B0;
+}
+
+@media (max-width: 480px) {
+.Introduction {
+    margin: 0px 40px;
+    width: 90%;
+}
+
+.Introduction-h2 h2 {
+    font-size: 35px;
+}
+
+.Introduction-h3 h3 {
+    font-size: 32px;
+}
+
+.Introduction-para {
+    width: 100%;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+.Introduction {
+    margin: -10px 50px;
+    width: 80%;
+}
+
+.Introduction-h2 h2 {
+    font-size: 40px;
+}
+
+.Introduction-h3 h3 {
+    font-size: 40px;
+}
+
+.Introduction-para {
+    width: 100%;
+}
+
+}
+
+@media (min-width: 767px) and (max-width: 768px) {
+.Introduction {
+    margin: -10px 70px;
+    width: 80%;
+}
+
+.Introduction-h2 h2 {
+    font-size: 40px;
+}
+
+.Introduction-h3 h3 {
+    font-size: 40px;
+}
+
+.Introduction-para {
+    width: 100%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+.Introduction {
+    margin: 0px 120px;
+    width: 80%
+}
+
+.Introduction-h2 h2 {
+    font-size: 50px;
+}
+
+.Introduction-h3 h3 {
+    font-size: 48px;
+}
+
+.Introduction-para {
+    width: 60%;
+}
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+.Introduction {
+    margin: -10px 150px;
+    width: 70%;
+}
+
+.Introduction-h2 h2 {
+    font-size: 60px;
+}
+
+.Introduction-h3 h3 {
+    font-size: 52px;
+}
+
+.Introduction-para {
+    width: 60%;
+}
+
+}
+
+@media (min-width: 1281px) {
+
+.Introduction {
+    width: 70%;
+    margin: 30px 180px;
+}
+
+.Introduction-h3 h3 {
+    font-size: 68px;
+}
+
+.Introduction-para {
+    width: 60%;
+}
+
+}

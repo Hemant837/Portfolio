@@ -1,0 +1,52 @@
+.RightSidebar {
+    position: fixed;
+    right: -10vh;
+    top: 63.5vh;
+    margin-left: 60px; 
+}
+
+.RightSidebar-email{
+    font-size: 0.9em;
+    list-style: none;
+    transform: rotate(90deg);
+}
+.RightSidebar-email a{
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #CCD6F6;
+}
+
+.RightSidebar-email a:hover {
+    color: #64FFDA;
+}
+
+.RightSidebar-content {
+   display: flex;
+   flex-direction: column;
+}
+
+.RightSidebar-line {
+    margin: auto;
+    margin-top: 130px;
+    background-color: #CCD6F6;
+    width: 1.5px;
+    height: 110px;
+}
+
+@media (max-width: 480px) {
+.RightSidebar {
+    display: none;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+.RightSidebar {
+    display: none;
+}
+}
+
+@media (min-width: 767px) and (max-width: 768px) {
+.RightSidebar {
+    display: none;
+}
+}

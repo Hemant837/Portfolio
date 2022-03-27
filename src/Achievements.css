@@ -1,0 +1,242 @@
+.Achievements {
+    width: 60%;
+    height: max-content;
+    margin-top: 40vh;
+    margin-left: 40vh;
+}
+
+.Achievements-heading {
+    display: flex;
+    font-size: 32px;
+    font-weight: 500;
+    color: #CCD6F6;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: start;
+}
+
+.Achievements-heading li {
+    list-style: none;
+}
+
+.Achievements-heading::before {
+    margin-right: 10px;
+    content: "\2022";
+    color: #64FFDA;   
+}
+
+.Achievements-line {
+    margin-left: 20px;
+    background-color: #233554;
+    width: 350px;
+    height: 1.5px;
+}
+
+.Achievements-contents {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #CCD6F6;
+}
+
+b {
+    font-weight: normal;
+    color: #64FFDA; 
+}
+
+.Achievements-contents p::before {
+    margin-right: 5px;
+    content: "\2023";
+    color: #64FFDA;
+    list-style: circle;
+}
+
+@media (max-width: 480px) {
+
+.Achievements {
+    width: 100%;
+    height: max-content;
+    margin-top: 50vh;
+    margin-left: 5vh;
+}
+
+.Achievements-heading {
+    display: flex;
+    font-size: 28px;
+    font-weight: 500;
+    color: #CCD6F6;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: start;
+}
+
+.Achievements-contents {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #CCD6F6;
+}
+
+.Achievements-line {
+    margin-left: 20px;
+    background-color: #233554;
+    width: 250px;
+    height: 1.5px;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.Achievements {
+    width: 100%;
+    height: max-content;
+    margin-top: 50vh;
+    margin-left: 5vh;
+}
+
+.Achievements-heading {
+    display: flex;
+    font-size: 28px;
+    font-weight: 500;
+    color: #CCD6F6;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: start;
+}
+
+.Achievements-contents {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #CCD6F6;
+}
+
+.Achievements-line {
+    margin-left: 20px;
+    background-color: #233554;
+    width: 250px;
+    height: 1.5px;
+}
+
+}
+          
+@media (min-width: 767px) and (max-width: 768px) {
+   
+.Achievements {
+    width: 100%;
+    height: max-content;
+    margin-top: 50vh;
+    margin-left: 5vh;
+}
+
+.Achievements-heading {
+    display: flex;
+    font-size: 28px;
+    font-weight: 500;
+    color: #CCD6F6;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: start;
+}
+
+.Achievements-contents {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #CCD6F6;
+}
+
+.Achievements-line {
+    margin-left: 20px;
+    background-color: #233554;
+    width: 250px;
+    height: 1.5px;
+}   
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+.Achievements {
+    width: 80%;
+    height: max-content;
+    margin-top: 50vh;
+    margin-left: 14vh;
+}
+
+.Achievements-heading {
+    display: flex;
+    font-size: 32px;
+    font-weight: 500;
+    color: #CCD6F6;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: start;
+}
+
+.Achievements-contents {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #CCD6F6;
+}
+
+}
+         
+
+@media (min-width: 1025px) and (max-width: 1280px){
+
+.Achievements {
+    width: 80%;
+    height: max-content;
+    margin-top: 50vh;
+    margin-left: 20vh;
+}
+
+.Achievements-heading {
+    display: flex;
+    font-size: 32px;
+    font-weight: 500;
+    color: #CCD6F6;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: start;
+}
+
+}
+
+@media (min-width: 1281px) {
+
+    .Achievements {
+    width: 70%;
+    height: max-content;
+    margin-top: 40vh;
+    margin-left: 40vh;
+}
+
+.Achievements-heading {
+    display: flex;
+    font-size: 32px;
+    font-weight: 500;
+    color: #CCD6F6;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: start;
+}
+
+.Achievements-line {
+    margin-left: 20px;
+    background-color: #233554;
+    width: 350px;
+    height: 1.5px;
+}
+
+}

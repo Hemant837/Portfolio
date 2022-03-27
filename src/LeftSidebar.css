@@ -1,0 +1,57 @@
+.LeftSidebar {
+    position: fixed;
+    top: 55vh;
+    margin-left: 60px;  
+}
+.LeftSidebar-content {
+   display: flex;
+   flex-direction: column;
+   width: max-content;
+   height: auto;
+   list-style: none;
+}
+
+.LeftSidebar-icon {
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+.LeftSidebar-icon:hover {
+    transform: translateY(-10px);
+}
+
+.LeftSidebar-icon a:hover {
+    color: #64FFDA;
+}
+
+.LeftSidebar-icon a{
+    color: #CCD6F6;
+    font-size: 1.4rem;
+    text-decoration:  none;
+}
+
+.LeftSidebar-line {
+    margin: auto;
+    margin-top: 20px;
+    background-color: #CCD6F6;
+    width: 1.5px;
+    height: 125px;
+}
+
+@media (max-width: 480px) {
+.LeftSidebar {
+    display: none;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+.LeftSidebar {
+    display: none;
+}
+}
+
+@media (min-width: 767px) and (max-width: 768px) {
+.LeftSidebar {
+    display: none;
+}
+}

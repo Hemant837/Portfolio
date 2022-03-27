@@ -1,0 +1,112 @@
+.Contact {
+    text-align: center;
+    margin-top: 50vh;
+    margin-left: 50vh;
+    width: 52%;
+    height: 450px;
+}
+
+.Contact-heading1 {
+    color: #64FFDA;
+}
+
+.Contact-heading2 {
+    color: #CCD6F6;
+    font-size: 32px;
+}
+
+.Contact-para {
+    margin: auto;
+    font-size: 18px;
+    color: #8892B0;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.Contact-btn {
+    border: 1px solid #64FFDA;
+    color: #64FFDA;
+    padding: 18px 26px;
+    font-size: 14px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.Contact-btn:hover {
+    cursor: pointer;
+    background-color: #233554;
+}
+
+@media (max-width: 480px) {
+
+.Contact {
+    text-align: center;
+    margin-top: 40vh;
+    margin-left: 4vh;
+    width: 100%;
+    height: 450px;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.Contact {
+    text-align: center;
+    margin-top: 40vh;
+    margin-left: 3vh;
+    width: 100%;
+    height: 450px;
+}
+    
+}
+
+@media (min-width: 767px) and (max-width: 768px){
+
+.Contact {
+    text-align: center;
+    margin-top: 40vh;
+    margin-left: 15vh;
+    width: 80%;
+    height: 450px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+.Contact {
+    text-align: center;
+    margin-top: 50vh;
+    margin-left: 15vh;
+    width: 80%;
+    height: 450px;
+}
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+
+.Contact {
+    text-align: center;
+    margin-top: 50vh;
+    margin-left: 35vh;
+    width: 60%;
+    height: 450px;
+}
+
+}
+         
+
+@media (min-width: 1281px) {
+
+.Contact {
+    text-align: center;
+    margin-top: 50vh;
+    margin-left: 45vh;
+    width: 52%;
+    height: 450px;
+}
+
+}

@@ -1,0 +1,91 @@
+.Navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 80px;
+    width: auto;
+    align-items: center;
+}
+
+.Navbar-list {
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    height: max-content;
+    list-style: none;
+}
+
+.Navbar-h {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 55px;
+    color: #64FFDA;
+}
+
+.Navbar-list li a {
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-family: monospace;
+    text-decoration: none;
+    color: #CCD6F6;
+    text-decoration: none;
+}
+
+span {
+    color: #64FFDA;
+}
+
+.Navbar-list li a:hover {
+    color: #64FFDA;
+}
+
+.Navbar-btn {
+    border: 1px solid;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-family: monospace;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #64FFDA;
+}
+
+.Navbar-btn:hover {
+    cursor: pointer;
+    background-color: #233554;
+}
+
+@media (max-width: 480px) {
+.Navbar-list {
+    display: none;
+}          
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+.Navbar-list {
+    display: none;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+.Navbar-list {
+    width: 65%;
+}
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px){
+.Navbar-list {
+    width: 50%;
+}
+}
+          
+
+@media (min-width: 1281px) {
+.Navbar-list {
+    width: 45%;
+}
+}
