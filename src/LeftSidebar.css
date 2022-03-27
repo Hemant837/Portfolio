@@ -39,16 +39,19 @@
 }
 
 @media (max-width: 480px) {
-
 .LeftSidebar {
     display: none;
 }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
-
+@media (min-width: 481px) and (max-width: 767px) {
 .LeftSidebar {
     display: none;
 }
 }
 
+@media (min-width: 767px) and (max-width: 768px) {
+.LeftSidebar {
+    display: none;
+}
+}

@@ -23,7 +23,21 @@ class Contact extends Component {
             my best to get back to you!
           </p>
         </div>
-        <a className="Contact-btn">vermanhemant837@gmail.com</a>
+        <a className="Contact-btn">vermahemant837@gmail.com</a>
+        <div className="Navigation-link">
+          <a href="https://github.com" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="" target="_blank">
+            <i class="fa-brands fa-linkedin-in hemant_Loves_pu$$y"></i>
+          </a>
+        </div>s
       </section>
     );
   }
