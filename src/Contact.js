@@ -38,7 +38,14 @@ class Contact extends Component {
             href="https://www.linkedin.com/in/hemant-verma-73a82a193/"
             target="_blank"
           >
-            <i class="fa-brands fa-linkedin-in hemant_Loves_pu$$y"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            href="./hemantResume.pdf"
+            target="_blank"
+            download={"hemantResume.pdf"}
+          >
+            <i class="fa-solid fa-file"></i>
           </a>
         </div>
       </section>

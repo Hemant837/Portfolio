@@ -35,10 +35,11 @@ class Navbar extends Component {
             </a>
           </li>
           <a
+            href="./hemantResume.pdf"
             data-aos="fade-down"
             data-aos-duration="900"
             className="Navbar-btn"
-            download
+            download={"hemantResume.pdf"}
           >
             Resume
           </a>
