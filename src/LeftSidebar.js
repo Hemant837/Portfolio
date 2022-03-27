@@ -6,28 +6,31 @@ class LeftSidebar extends Component {
     icons: [
       {
         icon: (
-          <a href="https://github.com" target="_blank">
+          <a href="https://github.com/Hemant837" target="_blank">
             <i class="fa-brands fa-github"></i>
           </a>
         ),
       },
       {
         icon: (
-          <a href="" target="_blank">
+          <a href="https://www.instagram.com/me_hemantv/" target="_blank">
             <i class="fa-brands fa-instagram"></i>
           </a>
         ),
       },
       {
         icon: (
-          <a href="" target="_blank">
+          <a href="https://twitter.com/HemantV74298189s" target="_blank">
             <i class="fa-brands fa-twitter"></i>
           </a>
         ),
       },
       {
         icon: (
-          <a href="" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/hemant-verma-73a82a193/"
+            target="_blank"
+          >
             <i class="fa-brands fa-linkedin-in hemant_Loves_pu$$y"></i>
           </a>
         ),
