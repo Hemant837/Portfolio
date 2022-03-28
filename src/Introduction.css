@@ -40,6 +40,10 @@
     width: 90%;
 }
 
+.Introduction-h1 h1{
+    margin-left: 3px;
+}
+
 .Introduction-h2 h2 {
     font-size: 35px;
 }
@@ -58,6 +62,10 @@
 .Introduction {
     margin: -10px 50px;
     width: 80%;
+}
+
+.Introduction-h1 h1{
+    margin-left: 3px;
 }
 
 .Introduction-h2 h2 {

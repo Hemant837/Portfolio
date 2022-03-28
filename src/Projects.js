@@ -61,7 +61,7 @@ class Projects extends Component {
         a1: "Java",
         a2: "Netbeans",
         a3: "MySQL",
-        link: "https://github.com/Hemant837/Ecommerce-App",
+        link: "https://github.com/Hemant837/Library-Management-System",
       },
     ],
   };
@@ -84,6 +84,7 @@ class Projects extends Component {
             a1={e.a1}
             a2={e.a2}
             a3={e.a3}
+            link={e.link}
           />
         ))}
       </section>

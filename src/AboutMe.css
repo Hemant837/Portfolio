@@ -75,7 +75,7 @@
 @media (max-width: 480px) {
 .AboutMe {
     margin-top: 40vh;
-    margin-left: 4vh;
+    margin-left: 8vh;
     width: 90%;
 }
 
@@ -96,6 +96,10 @@
     word-wrap: inherit;
     display: flex;
     flex-direction: column;
+}
+
+.AboutMe-line {
+    width: 150px;
 }
 
 .Content {
