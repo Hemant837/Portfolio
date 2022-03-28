@@ -124,7 +124,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: start;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     color: #CCD6F6;
     width: 100%; 
@@ -133,7 +133,7 @@
 
 .Project-line {
     background-color: #233554;
-    width: 120px;
+    width: 80px;
     height: 1.5px;
 }
 
